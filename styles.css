@@ -1,0 +1,108 @@
+/* General styles */
+body {
+    font-family: "Arial", sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Navigation styles */
+nav {
+    margin-top: 1rem;
+    text-align: center; /* Center the navigation links */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styles */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Image styles */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+}
+
+/* Text resize buttons container */
+.text-resize {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+/* Text resize buttons styles */
+.text-resize button {
+    font-size: 16px;
+    padding: 0.5rem 1rem;
+    margin: 0 5px;
+    cursor: pointer;
+    border: 2px solid #333;
+    background-color: #fff;
+    color: #333;
+}
+
+.text-resize button:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+body {
+    font-size: 16px; /* Default font size */
+}
+
+/* Adjust font size based on data-size attribute */
+body[data-size="larger"] {
+    font-size: 20px;
+}
+
+body[data-size="smaller"] {
+    font-size: 14px;
+}
+
+/* Focus styles */
+a,
+button {
+    outline: none;
+}
+
+a:focus,
+button:focus {
+    outline: 2px solid #007bff;
+}
+
+/* Responsive design for wide screens */
+main {
+    max-width: 80%; 
+    margin: 0 auto; 
+}
